@@ -6,4 +6,4 @@ lint:bash:
   stage: lint
   script:
     - echo "Linting all Bash scripts..."
-    - find . -type f -name "*.sh" -exec shellcheck {} +
+    - find . -type f -name "*.sh" | while read -r file; do shellcheck "$file"; done

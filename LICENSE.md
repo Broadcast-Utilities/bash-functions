@@ -1,7 +1,7 @@
 # End-User License Agreement (EULA)
 
-**Effective Date:** [Date]  
-**Software Name:** [Software Name]  
+**Effective Date:** 13-03-2025
+**Software Name:** BU Bash Functions Library
 **Company:** Broadcast Utilities  
 
 This **End-User License Agreement (EULA)** is a legal agreement between you (the **"User"**) and **Broadcast Utilities** (the **"Licensor"**). By **installing, copying, or using** this software (the **"Software"**), you agree to be bound by the terms of this agreement.

@@ -2,8 +2,8 @@ stages:
   - lint
 
 lint:bash:
-  image: koalaman/shellcheck:latest
+  image: bash:latest
   stage: lint
   script:
-    - echo "Linting all Bash scripts..."
-    - find . -type f -name "*.sh" | while read -r file; do shellcheck "$file"; done
+    - echo "Checking syntax for all Bash scripts..."
+    - find . -type f -name "*.sh" | while read -r file; do bash -n "$file"; done

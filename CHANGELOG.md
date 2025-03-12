@@ -26,7 +26,7 @@
 
 ---
 
-## **[1.1.0] - [13-03-2025]**
+## **1.1.0 - 13-03-2025**
 ### **Enhancements & Changes**
 - **License Update:** Changed the software license from **MIT** to an **End-User License Agreement (EULA)**.
 - **Ubuntu Optimization:**

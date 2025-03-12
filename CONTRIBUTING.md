@@ -8,18 +8,18 @@ All contributions are **restricted** to employees, contractors, and interns wo
 
 ## :open_file_folder: Branching Strategy
 
-* **`main`** → Development branch. All feature branches must be merged into `main` via Merge Requests (MRs).
-* **`production`** → Release branch. Code is promoted from `main` to `production` via Merge Requests when ready for deployment.
+* **``** → Development branch. All feature branches must be merged into `development` via Merge Requests (MRs).
+* **`production`** → Release branch. Code is promoted from `development` to `production` via Merge Requests when ready for deployment.
 
 ### **Branch Naming Format**
 
-`<issue-number>-<issue-title>`
+`<issue-number>/<issue-title>`
 
 **Examples:**
 
 ```
-4-add-contributing-md
-23-fix-bash-script-error
+4/add-contributing-md
+23/fix-bash-script-error
 ```
 
 ## :twisted_rightwards_arrows: Merge Requests
@@ -61,13 +61,13 @@ cd <repository-name>
 ### **:two: Create a Feature Branch Following the Correct Naming Format**
 
 ```
-git checkout -b <issue-number>-<issue-title>
+git checkout -b <issue-number>/<issue-title>
 ```
 
 **Example:**
 
 ```
-git checkout -b 4-add-contributing-md
+git checkout -b 4/add-contributing-md
 ```
 
 ### **:three: Write Clean, Well-Documented Code Following Bash Best Practices**
@@ -83,10 +83,10 @@ git commit -m "Fix: <short-description>"
 ### **:five: Push the Branch**
 
 ```
-git push origin <issue-number>-<issue-title>
+git push origin <issue-number>/<issue-title>
 ```
 
-### **:six: Open a Merge Request (MR) to `main`**
+### **:six: Open a Merge Request (MR) to `development`**
 
 ### **:seven: Wait for Review and Approval from Rik Visser**
 

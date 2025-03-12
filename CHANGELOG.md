@@ -1,6 +1,6 @@
 # Change Log
 
-## **[1.0.0] - [13-03-2025]**
+## **1.0.0 - 13-03-2025**
 ### **Initial Release**
 - **License:** Added a **temporary MIT license** to govern the initial release.
 - **Bash Script Features:**

@@ -1,4 +1,4 @@
-# Bash Functions Library
+# BU Bash Functions Library
 
 This is a Bash shell library that provides a set of common utility functions to streamline the scripting process in Debian-based environments, particularly optimized for Ubuntu.
 

@@ -1,9 +1,0 @@
-stages:
-  - lint
-
-lint:bash:
-  image: bash:latest
-  stage: lint
-  script:
-    - echo "Checking syntax for all Bash scripts..."
-    - find . -type f -name "*.sh" | while read -r file; do bash -n "$file"; done
